@@ -164,9 +164,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     
       //gamer over 
+      var manchester = new Audio('manchester.mp3')
       function gameOver(square) {
-        console.log('Boom! Game Over!') 
+        // alert('You suck lol') 
             isGameOver = true
+            manchester.play()
 
 
             //show all bpmb location 
